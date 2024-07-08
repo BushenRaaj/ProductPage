@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    width: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 30px;
+    width: 600px;
+  }
+.prod{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        padding: 25px;
+        margin: 25px;
+        border-style: solid;
+        border-color:white;
+        border-radius: 30px;
+        
+}
